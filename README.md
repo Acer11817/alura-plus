@@ -15,6 +15,7 @@
 </body>   
 </html>
 
+css.
 :root { --branco-principal: #FFFFFF; 
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
@@ -28,4 +29,5 @@ color: var(--branco-principal);
     margin: 0;
     padding: 0;
   }
+  
 .principal { background-image: url("img/Background.png"); }
