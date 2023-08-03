@@ -13,7 +13,8 @@ color: var(--branco-principal);
     padding: 0;
   }
   
-.principal { background-image: url("img/Background.png"); 
+.principal {
+ background-image: url("img/Background.png"); 
 background-repeat: no-repeat;
 background-size: contain;
 }
@@ -55,6 +56,34 @@ background-size: contain;
 .container__caixa {   
 margin: 0 6em; 
 }
+
+.secundario__imagem { 
+    width: 80%; 
+}
+
+.secundario { 
+    align-items: center; 
+    margin: 0 10em;
+}
+.descricao__titulo { 
+    font-weight: 700; 
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+.descricao__texto { 
+    color: var(--cinza-secundario); 
+}
+.secundario__botao {
+     display: inline-block;
+     margin-top: 1em;
+ }
+ .container__descricao { 
+    padding: 2em;
+ }
+
+
+
 
 
 
